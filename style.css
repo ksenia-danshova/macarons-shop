@@ -1,0 +1,255 @@
+:root {
+    --color-light-pink: #F7EBE5;
+    --color-black-text: #2B1414;
+    --color-background: #F7F7F7;
+    --color-pink: #FFDBC3;
+    --color-hot-pink: #FFC2CC;
+    --color-mint: #B4EAB3;
+    --color-pinki: #FDD5CD;
+    --color-blue: #A8DCDF;
+    --color-violet: #C4C6EC;
+    --color-navy-blue: #8CC4EC;
+    --color-scarlet: #FF4D6D;
+    --color-black-header: #292929;
+    --color-black: #000000;
+    --color-accent: #E7426A;
+    --color-blue-border: #4E9DD3;
+    --color-white: #FFFFFF;
+}
+
+
+body, html {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+
+.navigation__list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-family: inherit;
+    color: var(--color-black);
+}
+
+.preview {
+    background-color: var(--color-background);
+    padding: 40px 148px;
+}
+
+.preview__content {
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
+}
+
+.preview__additional-images {
+    position: relative;
+}
+
+.preview__layer {
+    position: absolute;
+}
+
+.preview__layer-1 {
+    bottom: 60px; 
+    left: 400px;
+}
+
+.preview__layer-2 {
+    bottom: 315px;
+    left: 430px;
+}
+
+.preview__layer-3 {
+    bottom: 360px;
+}
+
+.preview__layer-4 {
+    bottom: 200px;
+    left: 450px;
+}
+
+.preview__layer-5 {
+    bottom: 50px;
+}
+
+.preview__layer-6 {
+    bottom: 400px;
+    left: 150px;
+}
+
+.preview__layer-7 {
+    bottom: 10px;
+    left: 130px;
+}
+
+.preview__layer-8 {
+    bottom: 250px;
+    left: 500px;
+}
+
+.preview__layer-9 {
+    bottom: 130px; left: -120px;
+}
+
+.preview__layer-10 {
+    bottom: 4px; left: 50px;
+}
+
+.preview__layer-11 {
+     bottom: 80px; left: -30px;
+}
+
+.preview__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 14px;
+}
+
+.preview__header {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 51px;
+    color: var(--color-black-header);
+    text-align: center;
+    margin: 0;
+}
+
+.preview__text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--color-black-header);
+}
+
+.options {
+    background-color: var(--color-background);
+    padding-bottom: 94px;
+}
+
+.options__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.options__ready-set {
+    background: url(images/Group\ 188.png);
+    background-repeat: no-repeat;
+}
+
+.options__link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.options__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.options__set {
+    background: url(images/Group\ 189.png);
+    background-repeat: no-repeat;
+}
+
+.options__custom {
+    background: url(images/Group\ 190.png);
+    background-repeat: no-repeat;
+}
+
+.options__wedding {
+    background: url(images/Group\ 191.png);
+    background-repeat: no-repeat;
+}
+
+.options__gift {
+    background: url(images/Group\ 192.png);
+    background-repeat: no-repeat;
+}
+
+.options__wholesale {
+    background: url(images/Group\ 193.png);
+    background-repeat: no-repeat;
+}
+
+.ready-set__content,
+.set__content,
+.custom__content,
+.wedding__content,
+.gift__content,
+.wholesale__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 580px;
+    max-width: 570px;
+    padding: 36px 0 33px;
+    flex-grow: 1;
+}
+
+.promotions {
+    background-color: var(--color-background);
+}
+
+.promotions__title {
+    color: var(--color-black-header);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.promotions__content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.promotions__delivery,
+.promotions__new-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 270px;
+    height: 380px;
+}
+
+.promotions__text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-white);
+    text-align: center;
+}
+
+.delivery__info {
+    background-color: var(--color-navy-blue);
+}
+
+.new-items__info {
+    background-color: var(--color-scarlet);
+}
